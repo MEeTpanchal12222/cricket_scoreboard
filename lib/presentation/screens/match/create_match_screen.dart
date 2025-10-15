@@ -100,11 +100,11 @@ class _CreateMatchScreenState extends State<CreateMatchScreen> {
           child: ListView(
             padding: const EdgeInsets.all(16.0),
             children: [
-              // Use BlocBuilder to get the list of teams for dropdowns
+              
               BlocBuilder<TeamBloc, TeamState>(
                 builder: (context, state) {
                   if (state is TeamLoaded) {
-                    // Filter out the selected team from the second dropdown
+                    
                     final teamsForB = state.teams
                         .where((team) => team.id != _selectedTeamA?.id)
                         .toList();

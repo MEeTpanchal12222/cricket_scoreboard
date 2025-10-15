@@ -90,7 +90,7 @@ class MatchListScreen extends StatelessWidget {
                             ),
                           )
                           .then((value) {
-                            // After returning from AddScoreScreen, reload matches to update the status
+                           
                             if (value == true) {
                               context.read<MatchBloc>().add(LoadMatches());
                             }

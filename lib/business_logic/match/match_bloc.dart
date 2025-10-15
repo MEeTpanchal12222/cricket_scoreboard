@@ -1,4 +1,4 @@
-import 'package:bloc/bloc.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:cricket_scoreboard/data/database/database_helper.dart';
 import 'package:cricket_scoreboard/data/models/match_model.dart';
 import 'package:equatable/equatable.dart';
