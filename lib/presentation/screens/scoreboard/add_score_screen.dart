@@ -25,7 +25,7 @@ class AddScoreScreen extends StatelessWidget {
                   backgroundColor: Colors.green,
                 ),
               );
-              // Pop with a 'true' value to signal the previous screen to reload
+
               Navigator.of(context).pop(true);
             }
             if (state is ScoreboardError) {
